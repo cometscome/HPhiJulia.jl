@@ -19,6 +19,16 @@ At the first time, the HPhi 3.1.2 is downloaded and installed.
 add https://github.com/cometscome/HPhiJulia.jl
 ```
 
+# models, methods,lattices
+We can see 
+
+```julia
+using HPhiJulia
+println(HPhiJulia.models)
+println(HPhiJulia.methods)
+println(HPhiJulia.lattices)
+```
+
 # Examples
 
 ## Heisenberg model on a 2D square lattice
