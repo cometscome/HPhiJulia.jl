@@ -21,7 +21,7 @@ add https://github.com/cometscome/HPhiJulia.jl
 
 # Examples
 
-## Heisenberg on a 2D square lattice
+## Heisenberg model on a 2D square lattice
 
 ```julia
 using HPhiJulia
