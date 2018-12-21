@@ -1,0 +1,7 @@
+name = "HPhiJulia"
+uuid = "3ba88a6e-04cc-11e9-2145-5f9e47a3d469"
+authors = ["cometscome <cometscome@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CMake = "631607c0-34d2-5d66-819e-eb0f9aa2061a"
