@@ -54,3 +54,16 @@ nelec = 4
 results =  HPhiJulia.HPhi("Hubbard","square",W,L,U=U,t=t,nelec=nelec)
 println(results["Energy"])
 ```
+To obtain the eigenvector:
+
+```julia
+using HPhiJulia
+L = 2
+W = 2
+U = 8
+t = 1
+nelec = 4
+results,evec =  HPhiJulia.HPhi("Hubbard","square",W,L,U=U,t=t,nelec=nelec,expart=true,OutputEigenVec=true)
+println(results["Energy"])
+println(evec)
+```
