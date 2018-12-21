@@ -1,4 +1,4 @@
-# HPhiJulia
+# HPhiJulia.jl
 Julia wrapper for the HPhi.
 This just calls HPhi from Julia.
 Now this is very limited. 
@@ -16,7 +16,7 @@ At the first time, the HPhi 3.1.2 is downloaded and installed.
 
 
 ```julia
-add https://github.com/cometscome/HPhiJulia
+add https://github.com/cometscome/HPhiJulia.jl
 ```
 
 # Examples
