@@ -11,8 +11,9 @@ https://github.com/issp-center-dev/HPhi
 
 #install 
 
+
 ```julia
-] add https://github.com/cometscome/HPhiJulia
+add https://github.com/cometscome/HPhiJulia
 ```
 
 #Examples
