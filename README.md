@@ -8,7 +8,8 @@ I confirmed that this can work on Ubuntsu and Mac OS 10.13.
 Quantum Lattice Model Simulator Package
 https://github.com/issp-center-dev/HPhi
 
-HPhi is installed in ".julia/packages/HPhiJulia".
+HPhi is installed in "~/.julia/packages/HPhiJulia".
+At the first time, the HPhi 3.1.2 is downloaded and installed. 
 
 
 # Install 
