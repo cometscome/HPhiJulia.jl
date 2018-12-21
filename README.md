@@ -19,6 +19,16 @@ At the first time, the HPhi 3.1.2 is downloaded and installed.
 add https://github.com/cometscome/HPhiJulia.jl
 ```
 
+# models, methods,lattices
+We can see 
+
+```julia
+using HPhiJulia
+println(HPhiJulia.models)
+println(HPhiJulia.methods)
+println(HPhiJulia.lattices)
+```
+
 # Examples
 
 ## Heisenberg model on a 2D square lattice
@@ -43,4 +53,17 @@ t = 1
 nelec = 4
 results =  HPhiJulia.HPhi("Hubbard","square",W,L,U=U,t=t,nelec=nelec)
 println(results["Energy"])
+```
+To obtain the eigenvector:
+
+```julia
+using HPhiJulia
+L = 2
+W = 2
+U = 8
+t = 1
+nelec = 4
+results,evec =  HPhiJulia.HPhi("Hubbard","square",W,L,U=U,t=t,nelec=nelec,expart=true,OutputEigenVec=true)
+println(results["Energy"])
+println(evec)
 ```
