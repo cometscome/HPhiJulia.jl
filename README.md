@@ -2,7 +2,7 @@
 Julia wrapper for the HPhi.
 This just calls HPhi from Julia.
 Now this is very limited. 
-I confirmed that this can work on Ubuntsu and Mac OS 10.13. 
+I confirmed that this can work on Ubuntu and Mac OS 10.13. 
 
 # HPhi 
 Quantum Lattice Model Simulator Package
