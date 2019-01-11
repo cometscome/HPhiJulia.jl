@@ -1,5 +1,5 @@
 # HPhiJulia.jl
-Julia wrapper for the HPhi.
+Julia 1.0 wrapper for the HPhi.
 This just calls HPhi from Julia.
 Now this is very limited. 
 I confirmed that this can work on Ubuntu and Mac OS 10.13. 
@@ -13,7 +13,7 @@ At the first time, the HPhi 3.1.2 is downloaded and installed.
 
 
 # Install 
-
+Push ] to enter the package mode of Julia 1.0.
 
 ```julia
 add https://github.com/cometscome/HPhiJulia.jl
