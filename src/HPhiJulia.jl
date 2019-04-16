@@ -42,7 +42,9 @@ module HPhiJulia
        println(fp,"model = \"$model\"")
        println(fp,"method = \"$method\"")
        println(fp,"lattice = \"$lattice\"")
-       println(fp,"W= $W")
+       if lattice != "Chain Lattice"
+              println(fp,"W= $W")
+       end
        println(fp,"L = $L")
                      
        if mu != 0 println(fp,"mu = $mu") end
