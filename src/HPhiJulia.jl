@@ -14,7 +14,8 @@ module HPhiJulia
     cd("HPhiJulia")
 
     const HPhipath = homedir()*"/.julia/packages/HPhiJulia/HPhi.build/src/HPhi" 
-    const HPhiversion = "3.1.2"
+    const HPhiversion = "3.2.0"
+#    const HPhiversion = "3.1.2"
     const HPhitar = "HPhi-"*HPhiversion*".tar.gz"
     const HPhiurl = "https://github.com/issp-center-dev/HPhi/releases/download/v"*HPhiversion*"/"
               
